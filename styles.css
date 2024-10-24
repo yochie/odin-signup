@@ -62,6 +62,22 @@ header {
     padding: 10px;
 }
 
+header .attribution {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+header .attribution a:link,
+header .attribution a:visited
+{
+    text-decoration: underline;
+    color: white;
+}
+
 main {
     margin-left: 30%;
     display:flex;
