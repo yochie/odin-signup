@@ -133,8 +133,13 @@ section.form {
 
 section.form form {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px 60px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section.form .form-row  {
+  display: flex;
+  gap: 60px;
 }
 
 section.form h2 {
