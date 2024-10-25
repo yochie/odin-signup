@@ -129,7 +129,7 @@ section.description {
 
 section.form {
   box-shadow: 1px -1px 7px 0px;
-  ;
+  position: relative;
 }
 
 section.form form {
@@ -173,8 +173,6 @@ section.form .form-field {
 }
 
 section.cta {
-  position: relative;
-  z-index: -1;
   flex: 1;
 }
 
