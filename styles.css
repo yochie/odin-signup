@@ -108,20 +108,49 @@ main {
   min-height: 100vh;
 }
 
-section{
+section {
   padding: 30px;
+}
+
+section.description,
+section.cta {
+  background-color: #f9fafb;
 }
 
 section.description {
   flex: 1;
   display: flex;
   align-items: end;
+  font-weight: 600;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 1;
 }
 
 section.form {
+  box-shadow: 1px -1px 7px 0px;;
+}
 
+section.form form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.form h2 {
+  font-size: 1.5rem;
+}
+
+section.form label {
+  font-size: 0.8rem;
+}
+section.form .form-field {
+  display: flex;
+  flex-direction: column;
 }
 
 section.cta {
-  flex: 1;  
+  position: relative;
+  z-index: -1;
+  flex: 1;
 }
+
