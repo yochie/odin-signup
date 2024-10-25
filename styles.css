@@ -128,7 +128,8 @@ section.description {
 }
 
 section.form {
-  box-shadow: 1px -1px 7px 0px;;
+  box-shadow: 1px -1px 7px 0px;
+  ;
 }
 
 section.form form {
@@ -137,7 +138,7 @@ section.form form {
   gap: 10px;
 }
 
-section.form .form-row  {
+section.form .form-row {
   display: flex;
   gap: 60px;
 }
@@ -149,6 +150,7 @@ section.form h2 {
 section.form label {
   font-size: 0.6rem;
 }
+
 section.form .form-field {
   display: flex;
   flex-direction: column;
@@ -159,4 +161,3 @@ section.cta {
   z-index: -1;
   flex: 1;
 }
-
