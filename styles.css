@@ -161,3 +161,20 @@ section.cta {
   z-index: -1;
   flex: 1;
 }
+
+.cta button {
+  padding: 10px 40px;
+  background-color: rgb(89 109 72);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 2px grey;
+  margin-bottom: 30px;
+}
+
+.cta a {
+  text-decoration: none;
+  color: rgb(89 109 72);
+  font-weight: bold;
+}
