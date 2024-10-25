@@ -48,8 +48,8 @@
                 </div>
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="email">EMAIL</label>
-                        <input id="email" type="email" name="email">
+                        <label for="email">EMAIL *</label>
+                        <input id="email" type="email" name="email" required>
                     </div>
                     <div class="form-field">
                         <label for="phone">PHONE NUMBER</label>
@@ -58,12 +58,13 @@
                 </div>
                 <div class="form-row">
                     <div class="form-field">
-                        <label for="password">PASSWORD</label>
-                        <input id="password" type="password" name="pwd">
+                        <label for="password">PASSWORD *</label>
+                        <input id="password" type="password" name="pwd" required minlength="8">
+                        <p class="error"></p>
                     </div>
                     <div class="form-field">
-                        <label for="pwd_confirm">CONFIRM PASSWORD</label>
-                        <input id="pwd_confirm" type="password" name="pwd_confirm">
+                        <label for="pwd_confirm">CONFIRM PASSWORD *</label>
+                        <input id="pwd_confirm" type="password" name="pwd_confirm" required minlength="8">
                     </div>
                 </div>
             </form>

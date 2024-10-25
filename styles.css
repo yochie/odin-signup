@@ -156,6 +156,22 @@ section.form .form-field {
   flex-direction: column;
 }
 
+.form .form-field input {
+  border-radius: 3px;
+  border-color: lightgray;
+  border-style: solid;
+  outline: none;
+}
+
+.form .form-field input:invalid {
+  border-color: red;
+}
+
+.form .form-field input:focus-visible {
+  border-color: blue;
+  box-shadow: 1px 1px 3px;
+}
+
 section.cta {
   position: relative;
   z-index: -1;
