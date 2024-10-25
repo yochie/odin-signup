@@ -140,7 +140,8 @@ section.form form {
 
 section.form .form-row {
   display: flex;
-  gap: 60px;
+  flex-wrap: wrap;
+  gap: 10px 60px;
 }
 
 section.form h2 {
