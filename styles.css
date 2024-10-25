@@ -172,6 +172,11 @@ section.form .form-field {
   box-shadow: 1px 1px 3px;
 }
 
+.form .matching-error {
+  color:red;
+  visibility: hidden;
+}
+
 section.cta {
   flex: 1;
 }
